@@ -8,7 +8,7 @@ int main()
     printf("Enter the no.of disks : ");
     scanf("%d", &n);
     printf("The sequence of moves  :\n");
-    towers(n, 'A', 'C', 'B');
+    tower(n, 'A', 'C', 'B');
     return 0;
 }
 void tower(int n, char frompeg, char topeg, char auxpeg)
